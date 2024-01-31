@@ -13,22 +13,40 @@ Using latest YoloV8 model and with 36 classes available, this project aims to em
 ## Setup
 ### Prequisites
 - Python 3.8 and up
+- installing ultralytics library
+```
+pip install ultralytics
+```
+- installing opencv-python library
+```
+pip install opencv-python
+```
+- installing pyttsx3 library
 
-### Internal Libraries
-- threading
-- time
-  
-### External Libraries
-- OpenCV(cv2)
-- ultralytics YOLO
-- pyttsx3
-- pymongo
-- keras
-- gc
+```
+pip install pyttsx3
+```
+- installing pymongo library
+
+```
+pip install pymongo
+```
+- installing keras library
+
+```
+pip install keras
+```
+- installing gc library
+
+```
+pip install gc-python-utils
+```
+
+
 
 ## How to Run
 - Install all the prequisites library
-- Run the `finished.py` program using cmd or directly click the program
+- Run the `GP_Code.py` program using cmd or directly click the program
 - Login or signup main menu to choose, 0 for login, 1 for signup
 - Go straight into detecting program after login succesfull
 - Program will automatically detect any object and say it out loud with text-to-speech
